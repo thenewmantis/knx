@@ -1,12 +1,12 @@
-# vul -- Latin Vulgate Bible on the Command Line
+# knx -- Knox Bible on the Command Line
 
-A command line tool for search and reading the Clementine Vulgate.
+A command line tool for search and reading the Knox Bible.
 
-Format and original implementation from [bontibon/kjv](https://github.com/bontibon/kjv). Meant to be a companion program.
+Format and original implementation from [bontibon/kjv](https://github.com/bontibon/kjv). Also a derivative of [lukesmithxyz/vul](https://github.com/LukeSmithxyz/vul).
 
 ## Usage
 
-    usage: ./vul [flags] [reference...]
+    usage: ./knx [flags] [reference...]
 
       -l      list books
       -W      no line wrap
@@ -33,31 +33,12 @@ Format and original implementation from [bontibon/kjv](https://github.com/bontib
           <Book>:<Chapter>/<Search>
               All verses in a chapter of a book that match a pattern
 
-## Notes and Contents
-
-- I/II Samuel and I/II Kings are named with their English titles despite the fact that in Latin they are respectively I-IV Kings. This is simply because the interface is in English and is supposed to be consistent with `kjv`.
-
-
 ## Install
 
-Install `vul` by running:
-
 ```
-git clone https://github.com/lukesmithxyz/vul.git
-cd vul
+git clone https://github.com/thenewmantis/knx.git
+cd knx
 sudo make install
-```
-
-## Arch User Repository
-
-`vul` is also available in the Arch User Repository. `vul-git` in the Arch User Repository is based on `kjv-git` for `kjv`. Tim Cooper wrote the PKGBUILD for `kjv-git`. [Corey Stephan](https://github.com/historical-theology) ported that PKGBUILD as `vul-git`.
-
-https://aur.archlinux.org/packages/vul-git/
-
-For example, a user with `pamac` installed might install `vul` with the following command:
-
-```
-pamac install vul-git
 ```
 
 ## License
