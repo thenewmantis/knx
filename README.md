@@ -1,6 +1,6 @@
 # knx -- Knox Bible on the Command Line
 
-A command line tool for search and reading the Knox Bible.
+A command line tool for searching and reading the Knox Bible.
 
 Format and original implementation from [bontibon/kjv](https://github.com/bontibon/kjv). Also a derivative of [lukesmithxyz/vul](https://github.com/LukeSmithxyz/vul).
 
